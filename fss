@@ -1,0 +1,3 @@
+#!/usr/bin/csh
+source /apps/synopsys/VCSMX_NEW/bin/environ.csh
+vcs +systemverilogext+.sv -sverilog -ntb_opts dtm  serial.v ts.sv
